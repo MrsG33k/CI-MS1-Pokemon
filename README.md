@@ -23,9 +23,17 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 
 
 
--   ### Design
+-   ### Design Reference
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -    I have decided, for user familiarity to use colours associated with Pokemon. 
+        - **Pokémon Blue Color**: `#0A3B8A`
+        - **Pokémon Yellow Color**: `#FFD733`
+        - **Poké Ball Red Color**: `#C03028`
+        - **Poké Ball Black Color**: `#000000`
+        - **Display Font**: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
+        - **Body Font**: [Quicksand](https://fonts.google.com/specimen/Quicksand)
+        ![Image contains the colour palette chosen for the Pokmeon website](assets/images/PokemonPalette.png)
+
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
@@ -59,7 +67,7 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the '[Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P/)' and the '[Quicksand](https://fonts.google.com/specimen/Quicksand)' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -71,7 +79,7 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 1. [Canva:](https://www.canva.com)
     - Canva was used to create and edit the header image and the logo for the website. 
 1. [Google Gemini:](https://gemini.google.com)
-    - The Imagen 3 image generation was used to create concept images for the logo and some of the Pokemon
+    - The [Imagen 3](https://deepmind.google/technologies/imagen-3/) image generation was used to create concept images for the logo and some of the Pokemon
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -217,10 +225,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
-
+-   All images for the Pokedex page were taken from the [Bulbapedia website](https://bulbapedia.bulbagarden.net/wiki/Main_Page)
+-   Google Imagen 3 was used to help generate concept ideas for the logo
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   Mike Whittaker - For his help and feedback during the design process
 
--   Tutor support at Code Institute for their support.
+-   Rachel Furlong - EKC Tutor for the course for her encouragement along the way. 
