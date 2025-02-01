@@ -211,24 +211,21 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap library documentation referenced throughout to support with the responsiveness of the site and to tweak the cards on the Pokedex.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- [W3 Schools](https://www.w3schools.com/css/) : For help when changing the NavBar colour to override the Bootstrap default.
 
 ### Content
 
--   All content was written by the developer.
+-   All content was written by me, Jennie Whittaker, the developer
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
 -   All images for the Pokedex page were taken from the [Bulbapedia website](https://bulbapedia.bulbagarden.net/wiki/Main_Page)
 -   Google Imagen 3 was used to help generate concept ideas for the logo
+
 ### Acknowledgements
 
 -   Mike Whittaker - For his help and feedback during the design process
-
 -   Rachel Furlong - EKC Tutor for the course for her encouragement along the way. 
