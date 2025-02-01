@@ -1,8 +1,8 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Milestone 1 Project: Pokemon World</h1>
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+Welcome to Pokemon World - This 3 page website is designed to introduce you to the world of Pokemon whilst showcasing skills learnt in HTML, CSS and Bootstrap as part of the Code Institute Level 5 Diploma in Web Application Development. 
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -12,20 +12,16 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about pokemon.
+        2. As a First Time Visitor, I want a navigation menu that is easy to use  so that I can find the information I need quickly
+        3. As a First Time Visitor, I want to read about different types of Pokemon so that I can understand their strengths and weaknesses
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website. 
+        2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge. 
 
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
 
 -   ### Design
     -   #### Colour Scheme
@@ -45,11 +41,11 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 ## Features
 
--   Responsive on all device sizes
-
--   Interactive elements
-
-## Technologies Used
+- A simple and engaging introduction to Pokémon
+- A visually appealing design with Pokémon-themed elements
+- Easy-to-use navigation across all three pages
+- Informative content for both beginners and returning fans
+- A mobile first responsive design
 
 ### Languages Used
 
@@ -58,7 +54,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5:](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
@@ -72,8 +68,10 @@ This is the main marketing website for Code Institute. It is designed to be resp
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Canva:](https://www.canva.com)
+    - Canva was used to create and edit the header image and the logo for the website. 
+1. [Google Gemini:](https://gemini.google.com)
+    - The Imagen 3 image generation was used to create concept images for the logo and some of the Pokemon
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
