@@ -26,16 +26,16 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 -   ### Design Reference
     -   #### Colour Scheme
         -    I have decided, for user familiarity to use colours associated with Pokemon. 
-        - **Pokémon Blue Color**: `#0A3B8A`
-        - **Pokémon Yellow Color**: `#FFD733`
-        - **Poké Ball Red Color**: `#C03028`
-        - **Poké Ball Black Color**: `#000000`
+        - **Pokémon Blue Colour**: `#354FA0`
+        - **Pokémon Yellow Colour**: `#FBCA03`
+        - **Poké Ball Red Colour**: `#FE0004`
+        - **Poké Ball Black Colour**: `#010103`
         - **Display Font**: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
         - **Body Font**: [Quicksand](https://fonts.google.com/specimen/Quicksand)
         ![Image contains the colour palette chosen for the Pokmeon website](assets/images/PokemonPalette.png)
 
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        - Quicksand font is the main body font used throughout website with Sans Serif being used as a backup font if the Quicksand font fails to load correctly. Quicksand is a modern, sans serif font which will be clear and easy to read on the screeen.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
