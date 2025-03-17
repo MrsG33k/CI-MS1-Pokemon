@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon World</title>
+    <title>Pokémon World</title>
+    <!--Favicon-->
+    <link rel="icon" href="assets/images/PW_Favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS Link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--CSS Styling Link -->
     <link rel="stylesheet" href="assets/CSS/style.css">
     <!--Google Fonts Script-->
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <!--Font Awesome Link-->
+    <script src="https://kit.fontawesome.com/3ee4607b84.js" crossorigin="anonymous"></script>
+  </head>
 <body>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark pokecolour">
@@ -28,48 +32,121 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="pokedex.html">Pokedex</a></li>
-            <li class="nav-item"><a class="nav-link" href="poketypes.html">Types</a></li>
+            <li class="nav-item"><a class="nav-link" href="types.html">Types</a></li>
             <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
           </ul>
         </div>
     </div>
   </nav>
 
-
-  <!-- Hero Section -->
-  <div class="hero">
-    <h1>Welcome to the World of Pokémon!</h1>
-    <p>Discover Pokémon, their types, and explore the Pokédex.</p>
-  </div>
-
-  <!-- Main Content -->
-  <div class="container mt-4">
-    <h2>Explore</h2>
-    <a href="types.html" class="btn btn-pokemon">Learn About Types</a>
-    <a href="pokedex.html" class="btn btn-pokemon">View the Pokédex</a>
-  </div>
-
-  <div class="content-container">
-    <div class="row gx-5">
-    <!-- Fun Fact Section -->
-      <div class="col">
-          <div class="p-3 fun-fact">
-            <h3>Did You Know?</h3>
-            <p>Pikachu was not originally meant to be the Pokémon mascot—Clefairy was!</p>
-          </div>
+  <!--Carousel Section-->
+  <div id="PokemonCarousel" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#PokemonCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#PokemonCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#PokemonCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/C-Pokedex.png" class="d-block w-100 rounded" alt="Image of the back of some Pokemon cards">
+        <div class="carousel-caption d-none d-md-block">
+          <a href="types.html" class="btn btn-lg btn-pokemon">Who's that Pokémon?</a>
+          <h3><mark class="rounded"> Meet the 1st Gen Pokémon from Kanto </mark></h3>
+        </div>
+        <div class="carousel-caption d-md-none text-light">
+          <h5>Who's that Pokémon</h5>
+          <a href="pokedex.html" class="btn btn-sm btn-pokemon">Kanto Pokémon</a>
+        </div>
       </div>
-
-      <!-- About Section -->
-      <div class="col">
-        <div class="p-3 about-section">
-          <h3>About Pokémon</h3>
-          <p>Pokémon is a world filled with unique creatures that trainers capture and battle. 
-          Each Pokémon belongs to a specific type, which determines its strengths and weaknesses in battles.
-          Explore the Pokédex to learn about your favorite Pokémon and discover their hidden abilities!</p>
+      <div class="carousel-item">
+        <img src="assets/images/C-Types.png" class="d-block w-100 rounded" alt="Image of some different character Pokemon cards">
+        <div class="carousel-caption d-none d-md-block">
+          <a href="types.html" class="btn btn-lg btn-pokemon">Who does What?</a>
+          <h3><mark class="rounded"> Water,Fire,Grass and more... </mark> </h3>
+        </div>
+        <div class="carousel-caption d-md-none text-light">
+          <h5>Explore the Pokémon Types</h5>
+          <a href="types.html" class="btn btn-sm btn-pokemon">Types</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/C-Quiz.png" class="d-block w-100 rounded" alt="Image of 4 Pokemon Pop figures, Pikachu, Bulbasaur, Charmander and Squirtle">
+        <div class="carousel-caption d-none d-md-block">
+          <a href="quiz.html" class="btn btn-lg btn-pokemon">Gotta Catch 'em all</a>
+          <h3><mark class="rounded"> Test your skills with our  quiz! </mark></h3>
+        </div>
+        <!-- Carousel Caption for Small Screens -->
+        <div class="carousel-caption d-md-none text-light">
+          <h5>Explore the Pokémon Quiz</h5>
+          <a href="quiz.html" class="btn btn-sm btn-pokemon">Quiz</a>
         </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#PokemonCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#PokemonCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
+  <!-- Main Content -->
+
+
+  <section class="container-fluid text-center fact-section">
+    <h3>Pokémon Fact of the Day!</h3>
+    <p id="random-fact" class="fw-bold"></p>
+  </section>
+
+  <section class="container my-3">
+    <div class="text-center">
+        <h2>Welcome, Trainer!</h2>
+        <p>Explore the Kanto Pokédex, learn about Pokémon types, and test your knowledge with our quiz. Start your journey to become a Pokémon Master!</p>
+    </div>
+  </section>
+
+  <section class="container my-3">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="pikachu.jpg" class="card-img-top" alt="Pikachu">
+                <div class="card-body">
+                    <h5 class="card-title">Pikachu</h5>
+                    <p class="card-text">The iconic Electric-type Pokémon!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="charmander.jpg" class="card-img-top" alt="Charmander">
+                <div class="card-body">
+                    <h5 class="card-title">Charmander</h5>
+                    <p class="card-text">A fiery little lizard full of energy.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="bulbasaur.jpg" class="card-img-top" alt="Bulbasaur">
+                <div class="card-body">
+                    <h5 class="card-title">Bulbasaur</h5>
+                    <p class="card-text">Ready to grow and battle!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="container-fluid my-5 fact-section">
+    <div class="text-center">
+        <h2>Ready to Start Your Adventure?</h2>
+        <a href="pokedex.html" class="btn btn-lg mt-3 btn-pokemon">Explore the Pokédex</a>
+    </div>
+  </section>
+
+
+
 
 
   <!-- Footer-->
@@ -98,5 +175,26 @@
 
     <!-- Bootstrap Javascript Link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+       // Array of fun Pokémon facts
+    const pokemonFacts = [
+        "Pikachu was not originally meant to be the Pokémon mascot—Clefairy was!",
+        "Wobbuffet's body is actually the black tail, not the blue figure!",
+        "Ditto is the only Pokémon that can breed with almost any Pokémon.",
+        "Gengar is believed to be Clefable's shadow.",
+        "Magikarp's Japanese name is 'Koiking' — and yes, it evolves into the mighty Gyarados!",
+        "Meowth is one of the few Pokémon that can speak human language — thanks to Team Rocket!"
+    ];
+
+    // Function to display a random fact
+    function displayRandomFact() {
+        const randomIndex = Math.floor(Math.random() * pokemonFacts.length);
+        const factElement = document.getElementById('random-fact');
+        factElement.textContent = pokemonFacts[randomIndex];
+    }
+
+    // Call the function on page load
+    window.onload = displayRandomFact;
+    </script>
 </body>
 </html>

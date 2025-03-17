@@ -1,8 +1,8 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #0A3B8A;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #333; 
     text-align: center;
 }
 .hero {
@@ -19,21 +19,26 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+/* Images */
+.roundcorner {
+    border-radius: 3%;
+}
+
 .btn-pokemon {
-    background-color: #FFD733;
-    color: black;
+    background-color: #C03028;
+    color: white;
     font-weight: bold;
     border: none;
     padding: 10px 20px;
     margin: 10px;
 }
 .btn-pokemon:hover {
-    background-color: #C03028;
-    color: white;
+    background-color: #FFD733;
+    color: black;
 }
 
 .fun-fact, .about-section {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(246, 237, 107, 0.619);
     padding: 15px;
     border-radius: 10px;
     border: 1px solid white;
@@ -54,12 +59,32 @@ h2, h3 {
     font-family: 'Press Start 2P', cursive;
 }
 
+/* Carousel */
+.mark {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.carousel {
+    padding: 10px;
+    color: #fff;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover; 
+}
+
 
 /* Navigation */
 
 .navbar a {
     text-decoration: none;
     padding: 10px 15px;
+    border-radius: 10%;
 }
 .pokecolour a {
     color: #FFD733 !important;
@@ -67,7 +92,27 @@ h2, h3 {
 }
 .pokecolour a:hover {
     color: #C03028 !important;
+    
 }
+
+/* Random Fact */
+
+.fact-section {
+    background-color: #354FA0;
+    color: white; 
+    padding: 30px 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.fact-section h3 {
+    margin-bottom: 10px;
+}
+
+#random-fact {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
 
 /* Media Queries */
 
