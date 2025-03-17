@@ -212,22 +212,20 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - [Merijar - stock.adobe.com](https://stock.adobe.com): Granada, Spain; March 4, 2023: Pokemon Funko Pop Vinyl Figures: Pikachu, Charmander, Bulbasaur, Squirtle. Image used in the carousel background for the quiz
 - [selugallego - stock.adobe.com](https://stock.adobe.com): Background created with collectible Pokemon cards. Image used in the carousel background for the Poketypes
 - [Bennphoto - stock.adobe.com](https://stock.adobe.com):Vibrant Pokémon energy cards stacked together from the popular Japanese franchise. Image used in the carousel for the Poketypes. 
+- [PokeAPI - pokeapi.co](https://pokeapi.co/): API to access sprite images for the Pokedex as well as all the statistics for the Pokedex Page
+- [Bulbapedia - bulbgarden.net](https://bulbapedia.bulbagarden.net/wiki/Main_Page): For additional Pokemon information for the Pokedex and Types 
 
 ### Code
 
--   [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap library documentation referenced throughout to support with the responsiveness of the site and to tweak the cards on the Pokedex.
+- [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap library documentation referenced throughout to support with the responsiveness of the site and to tweak the cards on the Pokedex.
 
-- [W3 Schools](https://www.w3schools.com/css/) : For help when changing the NavBar colour to override the Bootstrap default.
+- [W3 Schools](https://www.w3schools.com/css/) : For help when changing the NavBar colour to override the Bootstrap default. Helping with the CSS Hover transform effects. 
+
+- [Josh W Comeau](https://www.joshwcomeau.com/css/custom-css-reset/): Custom CSS Reset code used in the styling. 
 
 ### Content
 
 -   All content was written by me, Jennie Whittaker, the developer
-
-
-### Media
-
--   All images for the Pokedex page were taken from the [Bulbapedia website](https://bulbapedia.bulbagarden.net/wiki/Main_Page)
--   Google Imagen 3 was used to help generate concept ideas for the logo
 
 ### Acknowledgements
 
