@@ -208,6 +208,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
+- [Joaquin Corbalan - stock.adobe.com](https://stock.adobe.com/): Valencia, Spain - May 10, 2019: Pokemon Trading Card Game, fondness for the collectibles of children of all ages, fans of the Pokemon RPGs. Image used in the carousel background
+- [Merijar - stock.adobe.com](https://stock.adobe.com): Granada, Spain; March 4, 2023: Pokemon Funko Pop Vinyl Figures: Pikachu, Charmander, Bulbasaur, Squirtle. Image used in the carousel background for the quiz
+- [selugallego - stock.adobe.com](https://stock.adobe.com): Background created with collectible Pokemon cards. Image used in the carousel background for the Poketypes
+- [Bennphoto - stock.adobe.com](https://stock.adobe.com):Vibrant Pokémon energy cards stacked together from the popular Japanese franchise. Image used in the carousel for the Poketypes. 
 
 ### Code
 
