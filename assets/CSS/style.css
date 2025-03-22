@@ -58,6 +58,7 @@ body {
     color: #333; 
     text-align: center;
 }
+/*
 .hero {
     background: url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png') no-repeat center;
     background-size: contain;
@@ -70,6 +71,11 @@ body {
 }
 .hero h1 {
     font-family: 'Press Start 2P', cursive;
+} */
+
+/*Left Align*/
+.text-left {
+    text-align: left;
 }
 
 /* Images */
@@ -91,6 +97,9 @@ body {
     color: black;
 }
 
+
+
+/* Sections */
 .fun-fact, .about-section {
     background-color: rgba(246, 237, 107, 0.619);
     padding: 15px;
@@ -111,6 +120,11 @@ body {
 
 h2, h3 {
     font-family: 'Press Start 2P', cursive;
+}
+
+h5 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
 }
 
 /* Carousel */
@@ -150,6 +164,10 @@ h2, h3 {
     
 }
 
+.nav-link.active {
+    color:#C03028 !important;
+}
+
 /* Random Fact */
 
 .fact-section {
@@ -179,6 +197,44 @@ h2, h3 {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.card-center {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Types Colours */
+
+btn.grass {
+    background-color: #78C850 !important;
+    color: white;
+}
+
+.fire {
+    background-color: #F08030;
+    color: white;
+}
+
+.water {
+    background-color: #6890F0;
+    color: white;
+}
+
+.poison {
+    background-color: #A040A0;
+    color: white;
+}
+
+
 /* Media Queries */
 
 @media (max-width: 768px) {
@@ -188,5 +244,18 @@ h2, h3 {
     }
     .fun-fact, .about-section {
         max-width: 80%;
+    }
+}
+
+.pokedex-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+@media (max-width: 768px) {
+    .pokedex-img {
+      max-width: 150px;
+      margin: 0 auto;
+      display: block;
     }
 }
