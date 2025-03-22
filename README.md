@@ -214,6 +214,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - [Bennphoto - stock.adobe.com](https://stock.adobe.com):Vibrant Pokémon energy cards stacked together from the popular Japanese franchise. Image used in the carousel for the Poketypes. 
 - [PokeAPI - pokeapi.co](https://pokeapi.co/): API to access sprite images for the Pokedex as well as all the statistics for the Pokedex Page
 - [Bulbapedia - bulbgarden.net](https://bulbapedia.bulbagarden.net/wiki/Main_Page): For additional Pokemon information for the Pokedex and Types 
+- [Game Rant - gamerant.com](https://gamerant.com/pokemon-pokedex-each-region-fan-recreates/): Image of the Pokedex
 
 ### Code
 
