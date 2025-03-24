@@ -1,10 +1,10 @@
 <h1 align="center">Milestone 1 Project: Pokemon World</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://mrsg33k.github.io/CI-MS1-Pokemon/index.html)
 
 Welcome to Pokemon World - This 3 page website is designed to introduce you to the world of Pokemon whilst showcasing skills learnt in HTML, CSS and Bootstrap as part of the Code Institute Level 5 Diploma in Web Application Development. 
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/images/AmIResponsive.png"></h2>
 
 ## User Experience (UX)
 
