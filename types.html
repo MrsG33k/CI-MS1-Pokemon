@@ -35,6 +35,144 @@
     </div>
   </nav>
 
+  <!-- Poketypes Intro-->
+  <section class="container-fluid fact-section">
+    <div class="row align-items-center">
+        <!-- Left Column: Image of PokeTypes -->
+        <div class="col-md-3 text-md-start">
+          <img src="assets/images/PokeTypesWheel.png" alt="PokeTypes" class="img-fluid pokedex-img">
+        </div>
+
+        <!-- Right Column: Text -->
+        <div class="col-md-9 text-md-start">
+          <h2>What Are Pokémon Types?</h2>
+          <p class="text-left">
+            Every Pokémon belongs to one or two <strong>types</strong>, like Fire, Water, or Grass. These types work like strengths and weaknesses — just like rock-paper-scissors.
+            For example, Fire types are strong against Grass types, but weak against Water types. Knowing how types interact can help you win battles and build stronger teams.
+          </p>
+          <h5>Click on a type below to learn more about its advantages and disadvantages, or scroll down to see how all the types compare in the full battle matrix.</h5>
+        </div>
+    </div>
+  </section>
+
+
+
+  <section class="container my-5 text-center">
+    <h2 class="mb-4">Explore Pokémon Types</h2>
+    <div class="row mb-5" id="type-top">
+      <div class="col-md-4">
+        <div class="list-group" id="type-list" role="tablist">
+          <a class="list-group-item list-group-item-action active type-fire" data-bs-toggle="list" href="#fire-list">Fire 🔥</a>
+          <a class="list-group-item list-group-item-action type-water" data-bs-toggle="list" href="#water-list">Water 💧</a>
+          <a class="list-group-item list-group-item-action type-grass" data-bs-toggle="list" href="#grass-list">Grass 🍃</a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content border p-3 type-border" id="type-content">
+          <!--Fire Type-->
+          <div class="tab-pane fade show active border-start border-4 border-fire ps-3" id="fire-list" role="tabpanel">
+            <div class="d-flex justify-content-between align-items-left mb-3">
+              <h3 class="mb-0">Fire Type</h3>
+              <img src="assets/images/fire-type-icon.png" alt="Fire Type Symbol" style="max-width: 80px;">
+            </div>
+            <p>Fire-type Pokémon are known for their hot tempers, blazing attacks, and intense energy. They often excel in special attacks and are most powerful in sunny weather.</p>
+            <p><strong>Famous Fire-types:</strong> Charmander, Charizard, Arcanine, Flareon, Blaziken</p>
+            <p><strong>Strong Against:</strong> 
+              <span class="badge badge-grass">Grass</span> 
+              <span class="badge badge-bug">Bug</span> 
+              <span class="badge badge-ice">Ice</span> 
+              <span class="badge badge-steel">Steel</span>
+            </p>
+            <p><strong>Weak To:</strong> 
+              <span class="badge badge-water">Water</span> 
+              <span class="badge badge-rock">Rock</span> 
+              <span class="badge badge-fire">Fire</span>
+            </p>
+          </div>
+          <!--Water Type-->
+          <div class="tab-pane fade show border-start border-4 border-water ps-3" id="water-list" role="tabpanel">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h3 class="mb-0">Water Type</h3>
+              <img src="assets/images/water-type-icon.png" alt="Water Type Symbol" style="max-width: 80px;">
+            </div>
+            <p>Water-type Pokémon are versatile and dependable, often found near lakes, oceans, and rivers. They’re known for their calm nature and strong special attacks.</p>
+            <p><strong>Famous Water-types:</strong> Squirtle, Blastoise, Vaporeon, Gyarados, Milotic</p>
+            <p><strong>Strong Against:</strong> 
+              <span class="badge badge-fire">Fire</span> 
+              <span class="badge badge-rock">Rock</span> 
+              <span class="badge badge-ground">Ground</span>
+            </p>
+            <p><strong>Weak To:</strong> 
+              <span class="badge badge-grass">Grass</span> 
+              <span class="badge badge-electric">Electric</span>
+            </p>
+          </div>
+          <!--Grass Type-->
+          <div class="tab-pane fade show border-start border-4 border-grass ps-3" id="grass-list" role="tabpanel">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h3 class="mb-0">Grass Type</h3>
+              <img src="assets/images/grass-type-icon.png" alt="Grass Type Symbol" style="max-width: 80px;">
+            </div>
+            <p>Grass-type Pokémon are deeply connected to nature, forests, and plant life. While not always the fastest, they have great defensive abilities and status-inducing moves.</p>
+            <p><strong>Famous Grass-types:</strong> Bulbasaur, Venusaur, Leafeon, Roserade, Decidueye</p>
+            <p><strong>Strong Against:</strong> 
+              <span class="badge badge-water">Water</span> 
+              <span class="badge badge-rock">Rock</span> 
+              <span class="badge badge-ground">Ground</span>
+            </p>
+            <p><strong>Weak To:</strong> 
+              <span class="badge badge-fire">Fire</span> 
+              <span class="badge badge-flying">Flying</span> 
+              <span class="badge badge-bug">Bug</span> 
+              <span class="badge badge-ice">Ice</span> 
+              <span class="badge badge-poison">Poison</span>
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Type Effectiveness Matrix Table - Hidden on small screens -->
+  <section class="container mb-5 type-matrix">
+    <h2 class="mb-4">Type Effectiveness Matrix</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered text-center">
+        <thead class="table-light">
+          <tr>
+            <th>Attacker \ Defender</th>
+            <th>Fire</th>
+            <th>Water</th>
+            <th>Grass</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Fire</th>
+            <td>0.5×</td>
+            <td>0.5×</td>
+            <td>2×</td>
+          </tr>
+          <tr>
+            <th>Water</th>
+            <td>2×</td>
+            <td>0.5×</td>
+            <td>0.5×</td>
+          </tr>
+          <tr>
+            <th>Grass</th>
+            <td>0.5×</td>
+            <td>2×</td>
+            <td>0.5×</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
 
 
   <!-- Footer-->
@@ -59,9 +197,22 @@
         </div>
     </div>
   </footer>
-
+  <script>
+    // Smooth scroll to top of content area on type click (mobile-friendly)
+    const typeLinks = document.querySelectorAll('#type-list a');
+    typeLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        const typeTop = document.getElementById('type-top');
+        if (window.innerWidth < 768) {
+          setTimeout(() => {
+            typeTop.scrollIntoView({ behavior: 'smooth' });
+          }, 200); // delay ensures content has toggled
+        }
+      });
+    });
+  </script>
 
     <!-- Bootstrap Javascript Link-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
