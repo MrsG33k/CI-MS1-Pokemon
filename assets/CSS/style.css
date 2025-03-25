@@ -211,88 +211,126 @@ h5 {
     margin-right: auto;
 }
 
-/* Types Colours */
 
-button.grass {
+/* Types Colours Pokedex*/
+
+button.grass, .type-grass, .badge-grass {
     background-color: #78C850 !important;
     color: white !important;
-
 }
 
-button.fire {
+button.fire, .type-fire, .badge-fire {
     background-color: #F08030 !important;
     color: white !important;
 }
 
-button.water {
+button.water, .type-water, .badge-water {
     background-color: #6890F0 !important;
     color: white !important;
 }
 
-button.poison {
+button.poison, .type-poison, .badge-poison {
     background-color: #A040A0 !important;
     color: white !important;
 }
 
-button.bug {
+button.bug, .type-bug, .badge-bug {
     background-color: #A8B820 !important;
     color: white !important;
 }
 
-button.flying {
+button.flying, .type-flying, .badge-flying {
     background-color: #A890F0 !important;
     color: white !important;
 }
 
-button.electric {
+button.electric, .type-electric, .badge-electric {
     background-color: #F8D030 !important;
     color: white !important;
 }
 
-button.ground {
+button.ground, .type-ground, .badge-ground {
     background-color: #E0C068 !important;
     color: white !important;
 }
 
-button.fairy {
+button.fairy, .type-fairy, .badge-fairy {
     background-color: #EE99AC !important;
     color: white !important;
 }
 
-button.fighting {
+button.fighting, .type-fighting, .badge-fighting {
     background-color: #C03028 !important;
     color: white !important;
 }
 
-button.psychic {
+button.psychic, .type-psychic, .badge-psychic {
     background-color: #F85888 !important;
     color: white !important;
 }
 
-button.rock {
+button.rock, .type-rock, .badge-rock {
     background-color: #B8A038 !important;
     color: white !important;
 }
 
-button.steel {
+button.steel, .type-steel, .badge-steel {
     background-color: #B8B8D0 !important;
     color: black !important;
 }
 
-button.ice {
+button.ice, .type-ice, .badge-ice {
     background-color: #98D8D8 !important;
     color: black !important;
 }
 
-button.ghost {
+button.ghost, .type-ghost, .badge-ghost {
     background-color: #705898 !important;
     color: white !important;
 }
 
-button.dragon {
+button.dragon, .type-dragon, .badge-dragon {
     background-color: #7038F8 !important;
     color: white !important;
 }
+
+/* Tab Pane Border Colour Styles */
+
+.border-fire {
+    border-left: 4px solid #F08030 !important;
+  }
+
+.border-water {
+    border-left: 4px solid #6890F0 !important;
+  }
+
+.border-grass {
+    border-left: 4px solid #78C850 !important;
+  }
+
+
+/* Hover Styles PokeTypes */
+
+.list-group-item:hover {
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+    color: white !important;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.50);
+  }
+
+/* Active Types Poketypes */
+
+.list-group-item.active {
+    background-color: transparent !important;
+    color: #212529 !important;
+    border: 1px solid #212529 !important; /* dark grey/black */
+    font-weight: bold;
+  }
+
+/* Align tab content text to the left */
+.tab-pane {
+    text-align: left;
+  }
 
 
 /* Media Queries */
@@ -307,11 +345,12 @@ button.dragon {
     }
 }
 
+/* Limit Intro image size on mobile and centre align */
 .pokedex-img {
     max-width: 100%;
     height: auto;
   }
-  
+
 @media (max-width: 768px) {
     .pokedex-img {
       max-width: 150px;
@@ -319,3 +358,9 @@ button.dragon {
       display: block;
     }
 }
+/* Hide the type matrix on mobile */
+@media (max-width: 767.98px) {
+    .type-matrix {
+      display: none;
+    }
+  }
