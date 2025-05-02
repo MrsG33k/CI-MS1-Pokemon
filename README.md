@@ -49,16 +49,12 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
         - **Here are the wireframes for both desktop and mobile for the homepage:**
         <figure>
             <img src="assets/images/HomePage.png" width="400px"
-                alt="Image of desktop wireframe for homepage">  
-            
-            <figcaption>Image of desktop wireframe for the homepage layout</figcaption>
+                alt="Image of desktop wireframe for homepage">
         </figure>
 
         <figure>
             <img src="assets/images/HomePage_Mob.png" width="200px"
                 alt="Image of mobile wireframe for homepage">  
-            
-            <figcaption>Image of mobile wireframe for the homepage layout</figcaption>
         </figure>
     
     - #### PokeTypes Wireframe
@@ -66,15 +62,11 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
         <figure>
             <img src="assets/images/PokeTypes.png" width="400px"
                 alt="Image of desktop wireframe for Poketypes">  
-            
-            <figcaption>Image of desktop wireframe for the poketypes layout</figcaption>
         </figure>
 
         <figure>
             <img src="assets/images/PokeTypesMob.png" width="200px"
                 alt="Image of mobile wireframe for poketypes">  
-            
-            <figcaption>Image of mobile wireframe for the poketypes layout</figcaption>
         </figure>
 
 
