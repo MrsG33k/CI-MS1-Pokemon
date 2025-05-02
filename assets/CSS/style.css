@@ -338,7 +338,7 @@ td {
 
 /* Hover Styles PokeTypes */
 
-.list-group-item:hover {
+#type-list .list-group-item:hover {
     background-color: #343a40 !important;
     border-color: #343a40 !important;
     color: white !important;
