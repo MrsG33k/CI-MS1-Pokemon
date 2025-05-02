@@ -32,7 +32,11 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
         - **Poké Ball Black Colour**: `#010103`
         - **Display Font**: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
         - **Body Font**: [Quicksand](https://fonts.google.com/specimen/Quicksand)
-        ![Image contains the colour palette chosen for the Pokmeon website](assets/images/PokemonPalette.png)
+        <figure>
+            <img src="assets/images/PokemonPalette.png" width="400px"
+                alt="Image of colour palette for the website">
+            <figcaption>Image contains the colour palette chosen for the Pokmeon website</figcaption>
+        </figure>
 
     -   #### Typography
         - Quicksand font is the main body font used throughout website with Sans Serif being used as a backup font if the Quicksand font fails to load correctly. Quicksand is a modern, sans serif font which will be clear and easy to read on the screeen.
@@ -141,19 +145,101 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       - The homepage features a “Fact of the Day” section that can be updated with rotating trivia, offering returning users something fresh. The overall structure supports future content additions like new Pokémon generations or expanded quizzes.
     
     **2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge.**
-      - 
-
-        1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website. 
-        2. As a Returning Visitor, 
-
+      - A link to the official Pokémon website is included in the footer, providing an easy path for users to explore official content beyond the scope of the site. In the future, I would like to add community features and a wiki of external content.
 
 
 ### Further Testing
+ - #### PageSpeed Insights
+    I ran the index page through Pagespeed insights and have posted the results below. The output from this showed that in the future, to aid performance I should convert all images to WEBP formats. 
+
+    <figure>
+        <img src="assets/images/Audit_Desktop.png" width="400px"
+            alt="Image of Pagespeed insight results for the mobile">
+        <figcaption>Image of the PageSpeed insights for the desktop version of the homepage</figcaption>
+    </figure>
+    <br>
+
+    <figure>
+        <img src="assets/images/Audit_Mobile.png" width="400px"
+            alt="Image of Pagespeed insight results for the mobile">
+        <figcaption>Image of the PageSpeed insights for the mobile version of the homepage</figcaption>
+    </figure>
+
+- #### General Testing 
+    - All features were manually tested across the latest versions of Chrome, Firefox, and Safari.
+    - The website was also tested on various screen sizes (mobile, tablet, desktop) using Chrome DevTools, PageSpeed Insights and [Am I Responsive](http://ami.responsivedesign.is/).
+    - All navigation links were tested to ensure they scroll or direct to the correct section or page.
+    - All images and fonts load correctly.
+    - The quiz radio buttons and layout were checked for accessibility and responsive alignment.
+
+- #### User Testing
+    As part of the final sign off of the website, I asked a range of users to test the website both on Desktop and Mobile and I have fixed some feedback and issues as follows:
+
+    **1. Charmander Text Issues**
+     On the homepage, the Charmander text was displaying differently to the other Pokémon names.
+    <figure>
+        <img src="assets/images/Bug_Charmander.png" width="400px"
+            alt="Image of Pokemon text not displaying propberly">
+    </figure>
+    This turned out to be a **h** issue. The incorrect Heading level was used on the Charmander text meaning it displayed incorrectly.   <br>
+    
+
+    **2. Pokedex - Black Background**
+    On the Pokedex page, when hovering over the cards a black background appears which shouldn't be there. 
+    <figure>
+        <img src="assets/images/Bug_BlackText.png" width="200px"
+            alt="Image of Pokemon text not displaying properly">
+    </figure>
+    This was due to using a black bg hover effect on the PokeTypes list. I fixed this by using a parent selector on the hover styles so that it would only effect the type list, not any hover items.
+
+    <code>  
+
+        #type-list .list-group-item:hover {  
+
+        background-color: #343a40 !important;  
+
+        border-color: #343a40 !important;  
+
+        color: white !important;  
+
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.50);  
+
+        } 
+    </code>  
+
+    **3. Quiz Text Alignment**
+    On the Quiz page, the users reported not liking the text alignment being centred in the Quiz section. 
+    <figure>
+        <img src="assets/images/Bug_QuizAlign.png" width="400px"
+            alt="Image of Quiz Page text aligning centrally">
+    </figure>  
+
+    This was fixed by adding the **text-start** code to the section code for the quiz content. 
+
+    **4. Missing call to action**
+    On the PokeTypes page, users reported not having a call to action at the bottom of the page to lead them to the Quiz page. This was inconsistent to the other pages. 
+    <figure>
+        <img src="assets/images/Bug_CTA.png" width="400px"
+            alt="Image of missing CTA on the PokeTypes page">
+    </figure> 
+
+    This was fixed by adding the CTA section and amending it as per the other pages of the website.
 
 
 
-### Known Bugs
 
+### Known Bugs / Issues
+
+- On some mobile browsers, custom font rendering (Press Start 2P) may take a moment to load, which causes a slight delay in text styling.
+- The "disabled" submit button on the quiz is intentionally non-functional due to project requirements restricting JavaScript use.
+
+
+
+## Future Improvements
+
+- Add JavaScript functionality to make the quiz fully interactive and display score live.
+- Include additional Pokémon generations in the Pokédex.
+- Expand type descriptions with animations or infographics.
 
 
 ## Deployment
@@ -164,7 +250,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
@@ -178,31 +263,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 - [Joaquin Corbalan - stock.adobe.com](https://stock.adobe.com/): Valencia, Spain - May 10, 2019: Pokemon Trading Card Game, fondness for the collectibles of children of all ages, fans of the Pokemon RPGs. Image used in the carousel background
