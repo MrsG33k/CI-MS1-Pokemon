@@ -360,6 +360,16 @@ td {
   }
 
 
+/* Quiz Results li items */
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    color: #212529; /* dark grey/black */
+}
+
+
 /* Media Queries */
 
 @media (max-width: 768px) {
