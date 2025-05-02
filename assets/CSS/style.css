@@ -58,20 +58,7 @@ body {
     color: #333; 
     text-align: center;
 }
-/*
-.hero {
-    background: url('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png') no-repeat center;
-    background-size: contain;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-}
-.hero h1 {
-    font-family: 'Press Start 2P', cursive;
-} */
+
 
 /*Left Align*/
 .text-left {
@@ -307,6 +294,46 @@ button.dragon, .type-dragon, .badge-dragon {
 .border-grass {
     border-left: 4px solid #78C850 !important;
   }
+
+.border-electric {
+    border-left: 4px solid #F8D030 !important;
+  }
+
+.border-ice {
+    border-left: 4px solid #98D8D8 !important;
+  }
+
+.border-psychic {
+    border-left: 4px solid #F85888 !important;
+  }
+
+
+/* Type Matrix Styles */
+
+.effect-2x {
+    background-color: #c9f7c3 !important; /* light green */
+  }
+
+.effect-1x {
+background-color: #f8f9fa !important; /* neutral*/
+}
+
+.effect-05x {
+background-color: #ffe7a0 !important; /* light amber */
+}
+
+.effect-0x {
+background-color: #e2e3e5 !important; /* light grey */
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* light grey */
+    font-weight: bold;
+    color: #212529;
+}
+  
 
 
 /* Hover Styles PokeTypes */
