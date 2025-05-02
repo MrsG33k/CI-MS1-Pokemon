@@ -1,8 +1,8 @@
-<h1 align="center">Milestone 1 Project: Pokemon World</h1>
+<h1 align="center">Milestone 1 Project: Pokémon World</h1>
 
 [View the live project here.](https://mrsg33k.github.io/CI-MS1-Pokemon/index.html)
 
-Welcome to Pokemon World - This 3 page website is designed to introduce you to the world of Pokemon whilst showcasing skills learnt in HTML, CSS and Bootstrap as part of the Code Institute Level 5 Diploma in Web Application Development. 
+Welcome to Pokemon World - This 3 page website is designed to introduce you to the world of Pokémon whilst showcasing skills learnt in HTML, CSS and Bootstrap as part of the Code Institute Level 5 Diploma in Web Application Development. 
 
 <h2 align="center"><img src="assets/images/AmIResponsive.png"></h2>
 
@@ -12,20 +12,20 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about pokemon.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Pokémon.
         2. As a First Time Visitor, I want a navigation menu that is easy to use  so that I can find the information I need quickly
-        3. As a First Time Visitor, I want to read about different types of Pokemon so that I can understand their strengths and weaknesses
+        3. As a First Time Visitor, I want to read about different types of Pokémon so that I can understand their strengths and weaknesses
 
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website. 
-        2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge. 
+        2. As a Returning Visitor, I want links to external Pokémon resources so that I can expand my knowledge. 
 
 
 
 -   ### Design Reference
     -   #### Colour Scheme
-        -    I have decided, for user familiarity to use colours associated with Pokemon. 
+        -    I have decided, for user familiarity to use colours associated with Pokémon. 
         - **Pokémon Blue Colour**: `#354FA0`
         - **Pokémon Yellow Colour**: `#FBCA03`
         - **Poké Ball Red Colour**: `#FE0004`
@@ -113,21 +113,38 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmrsg33k.github.io%2FCI-MS1-Pokemon%2Findex.html)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmrsg33k.github.io%2FCI-MS1-Pokemon%2Findex.html&usermedium=all&vextwarning=&warning=1)
 
-
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about pokemon.
-        2. As a First Time Visitor, I want a navigation menu that is easy to use  so that I can find the information I need quickly
-        3. As a First Time Visitor, I want to read about different types of Pokemon so that I can understand their strengths and weaknesses
+    **1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Pokémon.**
+      - The homepage opens with a clear hero section, welcome message, and a prominent call to action that immediately introduces the site’s purpose — to explore the Pokémon world. The use of themed visuals and a friendly tone makes the goal of the site obvious to new visitors.
+    
+    **2. As a First Time Visitor, I want a navigation menu that is easy to use  so that I can find the information I need quickly.**
+      - The homepage opens with a clear hero section, welcome message, and a prominent call to action that immediately introduces the site’s purpose — to explore the Pokémon world. The use of themed visuals and a friendly tone makes the goal of the site obvious to new visitors.
+    
+    **3. As a First Time Visitor, I want to read about different types of Pokémon so that I can understand their strengths and weaknesses.**
+      - The Types page provides an easy-to-navigate list of Pokémon types with custom styling, clear headings, images to demonstrate the type icons and example Pokémon. It includes descriptions, strong/weak matchups, and an effectiveness matrix to visually reinforce learning.
 
 
 -   #### Returning Visitor Goals
 
+    **1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website.**
+      - The homepage features a “Fact of the Day” section that can be updated with rotating trivia, offering returning users something fresh. The overall structure supports future content additions like new Pokémon generations or expanded quizzes.
+    
+    **2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge.**
+      - 
+
         1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website. 
-        2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge. 
+        2. As a Returning Visitor, 
 
 
 
