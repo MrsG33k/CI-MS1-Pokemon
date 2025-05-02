@@ -91,8 +91,6 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 
 1. [Bootstrap 5:](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the '[Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P/)' and the '[Quicksand](https://fonts.google.com/specimen/Quicksand)' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -108,7 +106,7 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
 1. [Google Gemini:](https://gemini.google.com)
     - The [Imagen 3](https://deepmind.google/technologies/imagen-3/) image generation was used to create concept images for the logo and some of the Pokemon
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
