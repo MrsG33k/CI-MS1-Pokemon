@@ -223,8 +223,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
             alt="Image of missing CTA on the PokeTypes page">
     </figure> 
 
-    This was fixed by adding the CTA section and amending it as per the other pages of the website.
-
+    This was fixed by adding the CTA section and amending it as per the other pages of the website.  
 
 
 
@@ -232,6 +231,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - On some mobile browsers, custom font rendering (Press Start 2P) may take a moment to load, which causes a slight delay in text styling.
 - The "disabled" submit button on the quiz is intentionally non-functional due to project requirements restricting JavaScript use.
+- I am aware that on mobile displays the font for the carousel shows white and is not clear, this is to be fixed in future development.
 
 
 

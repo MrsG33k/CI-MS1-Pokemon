@@ -388,6 +388,7 @@ li {
     height: auto;
   }
 
+/* Limit the size of the pokedex image on mobile and centre align */
 @media (max-width: 768px) {
     .pokedex-img {
       max-width: 150px;
