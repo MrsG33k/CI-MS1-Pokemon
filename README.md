@@ -167,7 +167,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - All images and fonts load correctly.
     - The quiz radio buttons and layout were checked for accessibility and responsive alignment.
 
-- ### Accessibility Testing
+- #### Accessibility Testing
     Using [Accessible Web Extension](https://accessibleweb.com/color-contrast-checker/) results:
 
     **HomePage**
@@ -198,6 +198,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     <br clear="left"/>
     <img align = "left" src = "assets/images/accessible_types.jpg" width = 400px alt="Image shows accessible web extension showing 9 errors with those all highlighted in red">
     <img align = "left" src = "assets/images/accessible_types_pass.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with darker font for clearer visibility.">
+    <br clear="left"/>
+    <br/>
+
+    **Quiz**
+
+    The Accessible Web Extension did not identify any colour/contrast accessibility issues on the Quiz Page. I have not made any amendments to this page. 
+
+     <br clear="left"/>
+    <img align = "left" src = "assets/images/accessible_quiz.jpg" width = 400px alt="Image shows accessible web extension result showing no errors.">
     <br clear="left"/>
     <br/>
 
