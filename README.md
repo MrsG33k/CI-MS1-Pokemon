@@ -199,6 +199,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     <img align = "left" src = "assets/images/accessible_types.jpg" width = 400px alt="Image shows accessible web extension showing 9 errors with those all highlighted in red">
     <img align = "left" src = "assets/images/accessible_types_pass.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with darker font for clearer visibility.">
     <br clear="left"/>
+    
+    Additionally, there were accessibility issues with viewing the types matrix on smaller screens (it was hidden on mobiles). Duue to this I have decided to remove it from the page for now and add it as a future development instead. 
     <br/>
 
     **Quiz**
