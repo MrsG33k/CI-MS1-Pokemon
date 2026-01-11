@@ -133,31 +133,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     **Image showing features of the homepage and navigation to appeal to first time visitors**
 
-     <img src="assets/images/HomePageExplainer.jpg" width="650" alt="Screenshot of the homepage pointing out features for the user">
+     <img src="assets/images/HomePageExplainer.jpg" width="800" alt="Screenshot of the homepage pointing out features for the user">
     
     
     **3. As a First Time Visitor, I want to read about different types of Pokémon so that I can understand their strengths and weaknesses.**
       - The Types page provides an easy-to-navigate list of Pokémon types with custom styling, clear headings, images to demonstrate the type icons and example Pokémon. It includes descriptions alongside strong/weak matchups.
 
-    <img src ="assets/images/TypesExplainer.jpg" width="650" alt = "Screenshot of the types page pointing out features for the user">
+    <img src ="assets/images/TypesExplainer.jpg" width="800" alt = "Screenshot of the types page pointing out features for the user">
 
 -   #### Returning Visitor Goals
 
     **1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website.**
       - The homepage features a “Fact of the Day” section that can be updated with rotating trivia, offering returning users something fresh. The overall structure supports future content additions like new Pokémon generations or expanded quizzes.
 
-    <img src = "assets/images/HomePageFOTD.jpg" width ="650" alt = "Screenshot of the homepage showing the Fact of the Day Section">
+    <img src = "assets/images/HomePageFOTD.jpg" width ="800" alt = "Screenshot of the homepage showing the Fact of the Day Section">
     
     </br>
-      - The quiz section currently only has 1 5 question quiz, but in the future more can be added and updated content added to the carousel header on the homepage.
+      - The quiz section currently only has 1, 5 question quiz, but in the future more can be added and updated content added to the carousel header on the homepage.
 
-    <img src="assets/images/Quiz_Explainer.jpg" width="650" alt="Screenshot of the Quiz">
+    <img src="assets/images/Quiz_Explainer.jpg" width="800" alt="Screenshot of the Quiz">
     </br>
 
     **2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge.**
       - A link to the official Pokémon website is included in the footer, providing an easy path for users to explore official content beyond the scope of the site. In the future, I would like to add community features and a wiki of external content.
     
-    <img src="assets/images/footer.jpg" width="650" alt="Screenshot of the website footer">
+    <img src="assets/images/footer.jpg" width="800" alt="Screenshot of the website footer">
     </br>
 
 
@@ -166,14 +166,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     I ran the index page through Pagespeed insights and have posted the results below. The output from this showed that in the future, to aid performance I should convert all images to WEBP formats. 
 
     <figure>
-        <img src="assets/images/Audit_Desktop.png" width="400px"
+        <img src="assets/images/Audit_Desktop.png" width="800px"
             alt="Image of Pagespeed insight results for the mobile">
         <figcaption>Image of the PageSpeed insights for the desktop version of the homepage</figcaption>
     </figure>
     <br>
 
     <figure>
-        <img src="assets/images/Audit_Mobile.png" width="400px"
+        <img src="assets/images/Audit_Mobile.png" width="800px"
             alt="Image of Pagespeed insight results for the mobile">
         <figcaption>Image of the PageSpeed insights for the mobile version of the homepage</figcaption>
     </figure>
@@ -193,8 +193,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     Running the Accessible Web extension on the index page outlined a contrast error with the rollover and active item colour text on the menu items. To combat this I have now altered the CSS to  changed the rollover / active item colour to White on all menu items. 
 
     <br clear="left"/>
-    <img align = "left" src = "assets/images/accessible_index.jpg" width = 400px alt="Image shows accessible web extension error message and an image of the affected asset">
-    <img align = "left" src = "assets/images/accessible_index_pass.jpg" width = 400px alt="Image shows accessible web extension passing all areas">
+    <img align = "left" src = "assets/images/accessible_index.jpg" width = 800px alt="Image shows accessible web extension error message and an image of the affected asset">
+    <img align = "left" src = "assets/images/accessible_index_pass.jpg" width = 800px alt="Image shows accessible web extension passing all areas">
     <br clear="left"/>
     <br/>
 
@@ -204,8 +204,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     Running the Accessible Web Extension on the Pokedex page did not detect any contrast errors with the page. However, on closer inspection, it appears the Pokemon type tags, highlighted in the image below, may be difficult to read, so I have adjusted the font to be bolder.
 
     <br clear="left"/>
-    <img align = "left" src = "assets/images/accessible_pokedex.jpg" width = 400px alt="Image shows accessible web extension passing all areas with pokedex tags magnified to show contrast">
-    <img align = "left" src = "assets/images/accessible_pokedex_comparison.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with bolder text for clearer visibility.">
+    <img align = "left" src = "assets/images/accessible_pokedex.jpg" width = 800px alt="Image shows accessible web extension passing all areas with pokedex tags magnified to show contrast">
+    <img align = "left" src = "assets/images/accessible_pokedex_comparison.jpg" width = 800px alt="Image shows adjusted Pokemon type tags with bolder text for clearer visibility.">
     <br clear="left"/>
     <br/>
 
@@ -214,8 +214,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     The Accessible Web Extension identified 9 contrast errors on the btn text colour for the types matrix. This was not picked up on the Pokedex page, however, the CSS styling for both are the same. In order to fix this issue I have amended the font color for all of the type badges to be black. 
 
     <br clear="left"/>
-    <img align = "left" src = "assets/images/accessible_types.jpg" width = 400px alt="Image shows accessible web extension showing 9 errors with those all highlighted in red">
-    <img align = "left" src = "assets/images/accessible_types_pass.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with darker font for clearer visibility.">
+    <img align = "left" src = "assets/images/accessible_types.jpg" width = 800px alt="Image shows accessible web extension showing 9 errors with those all highlighted in red">
+    <img align = "left" src = "assets/images/accessible_types_pass.jpg" width = 800px alt="Image shows adjusted Pokemon type tags with darker font for clearer visibility.">
     <br clear="left"/>
     
     Additionally, there were accessibility issues with viewing the types matrix on smaller screens (it was hidden on mobiles). Duue to this I have decided to remove it from the page for now and add it as a future development instead. 
@@ -226,7 +226,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     The Accessible Web Extension did not identify any colour/contrast accessibility issues on the Quiz Page. I have not made any amendments to this page. 
 
      <br clear="left"/>
-    <img align = "left" src = "assets/images/accessible_quiz.jpg" width = 400px alt="Image shows accessible web extension result showing no errors.">
+    <img align = "left" src = "assets/images/accessible_quiz.jpg" width = 800px alt="Image shows accessible web extension result showing no errors.">
     <br clear="left"/>
     <br/>
 
@@ -270,7 +270,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     **3. Quiz Text Alignment**
     On the Quiz page, the users reported not liking the text alignment being centred in the Quiz section. 
     <figure>
-        <img src="assets/images/Bug_QuizAlign.png" width="400px"
+        <img src="assets/images/Bug_QuizAlign.png" width="700px"
             alt="Image of Quiz Page text aligning centrally">
     </figure>  
 
@@ -279,7 +279,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     **4. Missing call to action**
     On the PokeTypes page, users reported not having a call to action at the bottom of the page to lead them to the Quiz page. This was inconsistent to the other pages. 
     <figure>
-        <img src="assets/images/Bug_CTA.png" width="400px"
+        <img src="assets/images/Bug_CTA.png" width="700px"
             alt="Image of missing CTA on the PokeTypes page">
     </figure> 
 
