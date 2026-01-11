@@ -146,12 +146,12 @@ h5 {
     font-weight: bold;
 }
 .pokecolour a:hover {
-    color: #C03028 !important;
+    color: #ffffff !important;
     
 }
 
 .nav-link.active {
-    color:#C03028 !important;
+    color:#ffffff !important;
 }
 
 /* Random Fact */
