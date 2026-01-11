@@ -167,6 +167,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - All images and fonts load correctly.
     - The quiz radio buttons and layout were checked for accessibility and responsive alignment.
 
+- ### Accessibility Testing
+    Using [Accessible Web Extension](https://accessibleweb.com/color-contrast-checker/) results:
+
+    **HomePage**
+
+    Running the Accessible Web extension on the index page outlined a contrast error with the rollover and active item colour text on the menu items. To combat this I have now altered the CSS to  changed the rollover / active item colour to White on all menu items. 
+
+    <br clear="left"/>
+    <img align = "left" src = "assets/images/accessible_index.jpg" width = 400px alt="Image shows accessible web extension error message and an image of the affected asset">
+    <img align = "left" src = "assets/images/accessible_index_pass.jpg" width = 400px alt="Image shows accessible web extension passing all areas">
+    <br clear="left"/>
+    <br>
+
+
+    **Pokedex**
+
+    Running the Accessible Web Extension on the Pokedex page did not detect any contrast errors with the page. However, on closer inspection, it appears the Pokemon type tags, highlighted in the image below, may be difficult to read, so I have adjusted the font to be bolder.
+
+    <br clear="left"/>
+    <img align = "left" src = "assets/images/accessible_pokedex.jpg" width = 400px alt="Image shows accessible web extension passing all areas with pokedex tags magnified to show contrast">
+    <img align = "left" src = "assets/images/accessible_pokedex_comparison.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with bolder text for clearer visibility.">
+    <br clear="left"/>
+
+
+
 - #### User Testing
     As part of the final sign off of the website, I asked a range of users to test the website both on Desktop and Mobile and I have fixed some feedback and issues as follows:
 
