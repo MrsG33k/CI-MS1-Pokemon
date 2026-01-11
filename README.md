@@ -178,7 +178,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     <img align = "left" src = "assets/images/accessible_index.jpg" width = 400px alt="Image shows accessible web extension error message and an image of the affected asset">
     <img align = "left" src = "assets/images/accessible_index_pass.jpg" width = 400px alt="Image shows accessible web extension passing all areas">
     <br clear="left"/>
-    <br>
+    <br/>
 
 
     **Pokedex**
@@ -189,6 +189,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     <img align = "left" src = "assets/images/accessible_pokedex.jpg" width = 400px alt="Image shows accessible web extension passing all areas with pokedex tags magnified to show contrast">
     <img align = "left" src = "assets/images/accessible_pokedex_comparison.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with bolder text for clearer visibility.">
     <br clear="left"/>
+    <br/>
+
+    **Types**
+
+    The Accessible Web Extension identified 9 contrast errors on the btn text colour for the types matrix. This was not picked up on the Pokedex page, however, the CSS styling for both are the same. In order to fix this issue I have amended the font color for all of the type badges to be black. 
+
+    <br clear="left"/>
+    <img align = "left" src = "assets/images/accessible_types.jpg" width = 400px alt="Image shows accessible web extension showing 9 errors with those all highlighted in red">
+    <img align = "left" src = "assets/images/accessible_types_pass.jpg" width = 400px alt="Image shows adjusted Pokemon type tags with darker font for clearer visibility.">
+    <br clear="left"/>
+    <br/>
 
 
 

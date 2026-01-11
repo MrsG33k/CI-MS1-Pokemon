@@ -203,19 +203,19 @@ h5 {
 
 button.grass, .type-grass, .badge-grass {
     background-color: #78C850 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.fire, .type-fire, .badge-fire {
     background-color: #F08030 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.water, .type-water, .badge-water {
     background-color: #6890F0 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
@@ -226,55 +226,55 @@ button.normal, .type-normal, .badge-normal {
 
 button.poison, .type-poison, .badge-poison {
     background-color: #A040A0 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.bug, .type-bug, .badge-bug {
     background-color: #A8B820 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.flying, .type-flying, .badge-flying {
     background-color: #A890F0 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.electric, .type-electric, .badge-electric {
     background-color: #F8D030 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.ground, .type-ground, .badge-ground {
     background-color: #E0C068 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.fairy, .type-fairy, .badge-fairy {
     background-color: #EE99AC !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.fighting, .type-fighting, .badge-fighting {
     background-color: #C03028 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.psychic, .type-psychic, .badge-psychic {
     background-color: #F85888 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.rock, .type-rock, .badge-rock {
     background-color: #B8A038 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
@@ -292,13 +292,13 @@ button.ice, .type-ice, .badge-ice {
 
 button.ghost, .type-ghost, .badge-ghost {
     background-color: #705898 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
 button.dragon, .type-dragon, .badge-dragon {
     background-color: #7038F8 !important;
-    color: white !important;
+    color: black !important;
     font-weight: bold !important;
 }
 
