@@ -235,6 +235,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Future Improvements
 
+- Add in a matrix for the Pokemon type Vs type compatibility. I tried to implement this during the initial project, however it wasn't easy to ensure full accessibility, so I am adding it as a future development instead.
 - Add JavaScript functionality to make the quiz fully interactive and display score live.
 - Include additional Pokémon generations in the Pokédex.
 - Expand type descriptions with animations or infographics.
