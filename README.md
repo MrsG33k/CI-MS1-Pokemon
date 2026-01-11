@@ -4,7 +4,7 @@
 
 Welcome to Pokemon World - This 3 page website is designed to introduce you to the world of Pokémon whilst showcasing skills learnt in HTML, CSS and Bootstrap as part of the Code Institute Level 5 Diploma in Web Application Development. 
 
-<h2 align="center"><img src="assets/images/AmIResponsive.png"></h2>
+<h2 align="center"><img src="assets/images/amIResponsive.png"></h2>
 
 ## User Experience (UX)
 
@@ -33,7 +33,7 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
         - **Display Font**: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
         - **Body Font**: [Quicksand](https://fonts.google.com/specimen/Quicksand)
         <figure>
-            <img src="assets/images/PokemonPalette.png" width="400px"
+            <img src="assets/images/pokemonPalette.png" width="400px"
                 alt="Image of colour palette for the website">  
             
             <figcaption>Image contains the colour palette chosen for the Pokmeon website</figcaption>
@@ -48,24 +48,24 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
     - #### Homepage Wireframe
         - **Here are the wireframes for both desktop and mobile for the homepage:**
         <figure>
-            <img src="assets/images/HomePage.png" width="400px"
+            <img src="assets/images/homePage.png" width="400px"
                 alt="Image of desktop wireframe for homepage">
         </figure>
 
         <figure>
-            <img src="assets/images/HomePage_Mob.png" width="200px"
+            <img src="assets/images/homePage_Mob.png" width="200px"
                 alt="Image of mobile wireframe for homepage">  
         </figure>
     
     - #### PokeTypes Wireframe
         - **I have also included a mock up of how the Poketypes page might look using an accordian to show the different Poketypes.**
         <figure>
-            <img src="assets/images/PokeTypes.png" width="400px"
+            <img src="assets/images/pokeTypes.png" width="400px"
                 alt="Image of desktop wireframe for Poketypes">  
         </figure>
 
         <figure>
-            <img src="assets/images/PokeTypesMob.png" width="200px"
+            <img src="assets/images/pokeTypesMob.png" width="200px"
                 alt="Image of mobile wireframe for poketypes">  
         </figure>
 
@@ -133,25 +133,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
     **Image showing features of the homepage and navigation to appeal to first time visitors**
 
-     <img src="assets/images/HomePageExplainer.jpg" width="800" alt="Screenshot of the homepage pointing out features for the user">
+     <img src="assets/images/homePageExplainer.jpg" width="800" alt="Screenshot of the homepage pointing out features for the user">
     
     
     **3. As a First Time Visitor, I want to read about different types of Pokémon so that I can understand their strengths and weaknesses.**
       - The Types page provides an easy-to-navigate list of Pokémon types with custom styling, clear headings, images to demonstrate the type icons and example Pokémon. It includes descriptions alongside strong/weak matchups.
 
-    <img src ="assets/images/TypesExplainer.jpg" width="800" alt = "Screenshot of the types page pointing out features for the user">
+    <img src ="assets/images/typesExplainer.jpg" width="800" alt = "Screenshot of the types page pointing out features for the user">
 
 -   #### Returning Visitor Goals
 
     **1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website.**
       - The homepage features a “Fact of the Day” section that can be updated with rotating trivia, offering returning users something fresh. The overall structure supports future content additions like new Pokémon generations or expanded quizzes.
 
-    <img src = "assets/images/HomePageFOTD.jpg" width ="800" alt = "Screenshot of the homepage showing the Fact of the Day Section">
+    <img src = "assets/images/homePageFOTD.jpg" width ="800" alt = "Screenshot of the homepage showing the Fact of the Day Section">
     
     </br>
       - The quiz section currently only has 1, 5 question quiz, but in the future more can be added and updated content added to the carousel header on the homepage.
 
-    <img src="assets/images/Quiz_Explainer.jpg" width="800" alt="Screenshot of the Quiz">
+    <img src="assets/images/quiz_Explainer.jpg" width="800" alt="Screenshot of the Quiz">
     </br>
 
     **2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge.**
@@ -166,14 +166,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     I ran the index page through Pagespeed insights and have posted the results below. The output from this showed that in the future, to aid performance I should convert all images to WEBP formats. 
 
     <figure>
-        <img src="assets/images/Audit_Desktop.png" width="800px"
+        <img src="assets/images/audit_Desktop.png" width="800px"
             alt="Image of Pagespeed insight results for the mobile">
         <figcaption>Image of the PageSpeed insights for the desktop version of the homepage</figcaption>
     </figure>
     <br>
 
     <figure>
-        <img src="assets/images/Audit_Mobile.png" width="800px"
+        <img src="assets/images/audit_Mobile.png" width="800px"
             alt="Image of Pagespeed insight results for the mobile">
         <figcaption>Image of the PageSpeed insights for the mobile version of the homepage</figcaption>
     </figure>
@@ -238,7 +238,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     **1. Charmander Text Issues**
      On the homepage, the Charmander text was displaying differently to the other Pokémon names.
     <figure>
-        <img src="assets/images/Bug_Charmander.png" width="400px"
+        <img src="assets/images/bug_Charmander.png" width="400px"
             alt="Image of Pokemon text not displaying propberly">
     </figure>
     This turned out to be a **h** issue. The incorrect Heading level was used on the Charmander text meaning it displayed incorrectly.   <br>
@@ -247,7 +247,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     **2. Pokedex - Black Background**
     On the Pokedex page, when hovering over the cards a black background appears which shouldn't be there. 
     <figure>
-        <img src="assets/images/Bug_BlackText.png" width="200px"
+        <img src="assets/images/bug_BlackText.png" width="200px"
             alt="Image of Pokemon text not displaying properly">
     </figure>
     This was due to using a black bg hover effect on the PokeTypes list. I fixed this by using a parent selector on the hover styles so that it would only effect the type list, not any hover items.
@@ -270,7 +270,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     **3. Quiz Text Alignment**
     On the Quiz page, the users reported not liking the text alignment being centred in the Quiz section. 
     <figure>
-        <img src="assets/images/Bug_QuizAlign.png" width="700px"
+        <img src="assets/images/bug_QuizAlign.png" width="700px"
             alt="Image of Quiz Page text aligning centrally">
     </figure>  
 
@@ -279,7 +279,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     **4. Missing call to action**
     On the PokeTypes page, users reported not having a call to action at the bottom of the page to lead them to the Quiz page. This was inconsistent to the other pages. 
     <figure>
-        <img src="assets/images/Bug_CTA.png" width="700px"
+        <img src="assets/images/bug_CTA.png" width="700px"
             alt="Image of missing CTA on the PokeTypes page">
     </figure> 
 
