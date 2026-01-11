@@ -126,21 +126,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     **1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Pokémon.**
       - The homepage opens with a clear hero section, welcome message, and a prominent call to action that immediately introduces the site’s purpose — to explore the Pokémon world. The use of themed visuals and a friendly tone makes the goal of the site obvious to new visitors.
+
     
     **2. As a First Time Visitor, I want a navigation menu that is easy to use  so that I can find the information I need quickly.**
       - The homepage opens with a clear hero section, welcome message, and a prominent call to action that immediately introduces the site’s purpose — to explore the Pokémon world. The use of themed visuals and a friendly tone makes the goal of the site obvious to new visitors.
     
-    **3. As a First Time Visitor, I want to read about different types of Pokémon so that I can understand their strengths and weaknesses.**
-      - The Types page provides an easy-to-navigate list of Pokémon types with custom styling, clear headings, images to demonstrate the type icons and example Pokémon. It includes descriptions, strong/weak matchups, and an effectiveness matrix to visually reinforce learning.
+    **Image showing features of the homepage and navigation to appeal to first time visitors**
 
+     <img src="assets/images/HomePageExplainer.jpg" width="650" alt="Screenshot of the homepage pointing out features for the user">
+    
+    
+    **3. As a First Time Visitor, I want to read about different types of Pokémon so that I can understand their strengths and weaknesses.**
+      - The Types page provides an easy-to-navigate list of Pokémon types with custom styling, clear headings, images to demonstrate the type icons and example Pokémon. It includes descriptions alongside strong/weak matchups.
+
+    <img src ="assets/images/TypesExplainer.jpg" width="650" alt = "Screenshot of the types page pointing out features for the user">
 
 -   #### Returning Visitor Goals
 
     **1. As a Returning Visitor, I want to find new or updated content easily so that I can stay engaged with the website.**
       - The homepage features a “Fact of the Day” section that can be updated with rotating trivia, offering returning users something fresh. The overall structure supports future content additions like new Pokémon generations or expanded quizzes.
+
+    <img src = "assets/images/HomePageFOTD.jpg" width ="650" alt = "Screenshot of the homepage showing the Fact of the Day Section">
     
+    </br>
+      - The quiz section currently only has 1 5 question quiz, but in the future more can be added and updated content added to the carousel header on the homepage.
+
+    <img src="assets/images/Quiz_Explainer.jpg" width="650" alt="Screenshot of the Quiz">
+    </br>
+
     **2. As a Returning Visitor, I want links to external Pokemon resources so that I can expand my knowledge.**
       - A link to the official Pokémon website is included in the footer, providing an easy path for users to explore official content beyond the scope of the site. In the future, I would like to add community features and a wiki of external content.
+    
+    <img src="assets/images/footer.jpg" width="650" alt="Screenshot of the website footer">
+    </br>
 
 
 ### Further Testing
