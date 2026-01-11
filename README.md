@@ -34,7 +34,8 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
         - **Body Font**: [Quicksand](https://fonts.google.com/specimen/Quicksand)
         <figure>
             <img src="assets/images/PokemonPalette.png" width="400px"
-                alt="Image of colour palette for the website">
+                alt="Image of colour palette for the website">  
+            
             <figcaption>Image contains the colour palette chosen for the Pokmeon website</figcaption>
         </figure>
 
@@ -49,27 +50,23 @@ Welcome to Pokemon World - This 3 page website is designed to introduce you to t
         <figure>
             <img src="assets/images/HomePage.png" width="400px"
                 alt="Image of desktop wireframe for homepage">
-            <figcaption>Image of desktop wireframe for the homepage layout</figcaption>
         </figure>
 
         <figure>
             <img src="assets/images/HomePage_Mob.png" width="200px"
-                alt="Image of mobile wireframe for homepage">
-            <figcaption>Image of mobile wireframe for the homepage layout</figcaption>
+                alt="Image of mobile wireframe for homepage">  
         </figure>
     
     - #### PokeTypes Wireframe
         - **I have also included a mock up of how the Poketypes page might look using an accordian to show the different Poketypes.**
         <figure>
             <img src="assets/images/PokeTypes.png" width="400px"
-                alt="Image of desktop wireframe for Poketypes">
-            <figcaption>Image of desktop wireframe for the poketypes layout</figcaption>
+                alt="Image of desktop wireframe for Poketypes">  
         </figure>
 
         <figure>
             <img src="assets/images/PokeTypesMob.png" width="200px"
-                alt="Image of mobile wireframe for poketypes">
-            <figcaption>Image of mobile wireframe for the poketypes layout</figcaption>
+                alt="Image of mobile wireframe for poketypes">  
         </figure>
 
 
